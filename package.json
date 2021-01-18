@@ -1,0 +1,27 @@
+{
+  "name": "fake-unicorner",
+  "version": "1.0.0",
+  "description": "A CLI to say who is an unicorn",
+  "main": "index.js",
+  "homepage": "https://github.com/classicoman2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classicoman2/fake-unicorner"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "bin": {
+    "fake-unicorner": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^16.2.0"
+  }
+}
